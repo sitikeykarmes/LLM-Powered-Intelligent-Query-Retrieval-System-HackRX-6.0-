@@ -84,6 +84,8 @@ pip install python-multipart
 
 ## 🚀 Running the Project
 
+### Contact Sitikeykarmes(INSTAGRAM)
+
 ### 1. Start the API Server
 
 Navigate to your project directory(app) and run:
@@ -252,7 +254,7 @@ Question → Generate Embedding → Vector Search → Retrieve Chunks → LLM Pr
 
 ## 📄 License
 
-This project is part of the HackRX competition.
+This project belongs to team BitLords and is part of the HackRX competition.
 
 ---
 
