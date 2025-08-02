@@ -84,7 +84,7 @@ pip install python-multipart
 
 ## 🚀 Running the Project
 
-### Contact Sitikeykarmes(INSTAGRAM)
+Contact sitikeykarmes(Instagram) for help.
 
 ### 1. Start the API Server
 
