@@ -61,8 +61,8 @@ class Config:
     OPENAI_API_KEY = os.getenv('OPENROUTER_API_KEY')  # Changed to OPENROUTER_API_KEY
     MAX_CHUNK_SIZE = 1000
     CHUNK_OVERLAP = 200
-    TOP_K_RETRIEVAL = 5
-    SIMILARITY_THRESHOLD = 0.3  # Lowered threshold for better retrieval
+    TOP_K_RETRIEVAL = 14
+    SIMILARITY_THRESHOLD = 0.1  # Lowered threshold for better retrieval
 
 config = Config()
 
