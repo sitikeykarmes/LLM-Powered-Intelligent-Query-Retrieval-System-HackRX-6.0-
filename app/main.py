@@ -61,8 +61,8 @@ class Config:
     OPENAI_API_KEY = os.getenv('OPENROUTER_API_KEY')  # Changed to OPENROUTER_API_KEY
     MAX_CHUNK_SIZE = 1000
     CHUNK_OVERLAP = 200
-    TOP_K_RETRIEVAL = 14
-    SIMILARITY_THRESHOLD = 0.1  # Lowered threshold for better retrieval
+    TOP_K_RETRIEVAL = 7
+    SIMILARITY_THRESHOLD = 0.2 # Lowered threshold for better retrieval
 
 config = Config()
 
@@ -313,6 +313,7 @@ Answer:"""
         try:
             # Use free models available on OpenRouter
             models_to_try = [
+                "moonshotai/kimi-k2:free",  # Free model
                 "openai/gpt-3.5-turbo",  # Free tier available
                 "microsoft/wizardlm-2-8x22b",  # Free alternative
                 "meta-llama/llama-3-8b-instruct:free"  # Free Llama model

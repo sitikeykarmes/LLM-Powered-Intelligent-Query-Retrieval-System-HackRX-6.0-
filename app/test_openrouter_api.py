@@ -54,11 +54,11 @@ def test_openrouter_api():
         
         # Test with a simple request
         response = client.chat.completions.create(
-            model="openai/gpt-3.5-turbo",  # Free model
+            model="moonshotai/kimi-k2:free",  # Free model
             messages=[
                 {"role": "user", "content": "Respond with just 'API Working'"}
             ],
-            max_tokens=10
+            max_tokens=500
         )
         
         result = response.choices[0].message.content.strip()

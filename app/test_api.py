@@ -10,7 +10,7 @@ if api_key:
     client = OpenAI(api_key=api_key, base_url='https://openrouter.ai/api/v1')
     try:
         response = client.chat.completions.create(
-            model='openai/gpt-3.5-turbo',
+            model='moonshotai/kimi-k2:free',
             messages=[{'role': 'user', 'content': 'What is the capital of France?'}],
             max_tokens=10
         )
