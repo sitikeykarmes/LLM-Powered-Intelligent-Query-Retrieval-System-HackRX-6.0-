@@ -122,7 +122,7 @@ def test_main_endpoint():
             f"{API_BASE_URL}/hackrx/run",
             headers=headers,
             json=SAMPLE_REQUEST,
-            timeout=120  # Increased timeout for OpenRouter
+            timeout=300  # Increased timeout for OpenRouter
         )
         end_time = time.time()
         
