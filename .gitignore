@@ -7,3 +7,7 @@ app/.env
 app/.pytest_cache
 app/venv
 
+Ideas
+
+hackrx-document-query/.env
+hackrx-document-query/.gitattributes
